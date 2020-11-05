@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SecondApp</string>
+    <string name="firstNumEditText">Enter a number</string>
+    <string name="secondNumEditText">Enter a number</string>
+    <string name="add">Add</string>
+    <string name="result">Result</string>
+</resources>
