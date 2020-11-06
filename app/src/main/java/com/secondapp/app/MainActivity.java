@@ -15,6 +15,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Makre sure that all plain text hint boxes are properly set up
+        // in strings.xml
+        // <string name="[INSERT TEXT BOX ID]">[INSERT HINT TEXT THAT APPEARS IN THE BOX]</string>
+
+        // in activity_main.xml
+        // HINTS MUST BE FORMATTED LIKE THIS:
+        // @string/[INSERT NAME THAT WAS SPECIFIED IN strings.xml] 
+
         // get reference to button
         // R = resources
         // is = go through ids
